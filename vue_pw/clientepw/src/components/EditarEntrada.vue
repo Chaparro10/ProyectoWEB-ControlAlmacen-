@@ -61,6 +61,7 @@ import axios from "axios";
                costo:this.entradas.costo,  
             });
             console.log(res);
+            alert("ACTUALIZADO");
         },
     },
  };

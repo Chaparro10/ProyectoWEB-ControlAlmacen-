@@ -64,6 +64,7 @@ import axios from "axios";
                 cuadro_observaciones:this.proveedores.cuadro_observaciones
             });
             console.log(res);
+            alert("ACTUALIZADO");
         },
     },
  };

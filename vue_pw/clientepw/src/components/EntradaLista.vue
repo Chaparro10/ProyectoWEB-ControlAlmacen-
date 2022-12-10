@@ -71,6 +71,7 @@ export default {
             const res = await axios.delete(URL_DATOS + "/entradas/" + id);
             console.log(res)
             this.traeEntrada();
+            
     },
     },
 };

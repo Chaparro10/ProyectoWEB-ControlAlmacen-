@@ -53,6 +53,7 @@ import axios from "axios";
                 
             });
             console.log(res);
+            alert("ACTUALIZADO");
         },
     },
  };

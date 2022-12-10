@@ -12,6 +12,7 @@
 
             <br>
     <button @click.prevent="actualizar()" class="btn btn-primary btn-lg">Actualizar</button>
+   
     </div>
     
 </template>
@@ -53,6 +54,7 @@ import axios from "axios";
                 cantidad:this.articulos.cantidad
             });
             console.log(res);
+            alert("ACTUALIZADO");
         },
     },
  };
