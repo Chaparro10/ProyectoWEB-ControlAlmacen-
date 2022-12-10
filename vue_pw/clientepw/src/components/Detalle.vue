@@ -5,7 +5,9 @@
     Descripcion: {{articulos.Descripcion}}
     <br/>
     Cantidad: {{articulos.cantidad}}
+    <br>
    
+    <img src="https://th.bing.com/th/id/R.3b2a053f096021370e44f57a39a977aa?rik=bzI1BiV4oofd1w&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fInventory-PNG-Pic.png&ehk=MWXe%2fydZovVFzk%2b7wHywmsJTkm%2f595IwItRIlQUnBzQ%3d&risl=&pid=ImgRaw&r=0" alt="">
  </div>
 </template>
 

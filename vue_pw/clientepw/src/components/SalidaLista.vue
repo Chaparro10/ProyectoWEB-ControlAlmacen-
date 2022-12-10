@@ -1,6 +1,6 @@
 <template>
     <div class="SalidaLista"> 
-        <button @click.prevent="nuevaSalida()">Nuevo</button> 
+        <button @click.prevent="nuevaSalida()" class="btn btn-succes btn-lg">Agregar Nuevo</button> 
         <table>
             <thead>
                 <tr>
@@ -9,6 +9,7 @@
                     <th> Cantidad</th>
                     <th> Precio venta</th>
                     <th> Clave_Cliente</th>
+                    <th>Acciones</th>
                     
                 </tr>
             </thead>
@@ -21,8 +22,8 @@
                     <td>{{ sal.clave_cte }}</td>
 
                     <td>
-                        <button @click.prevent="eliminarSalida(sal.clave_salida)">Eliminar</button> 
-                        <button @click.prevent="editarSalida(sal.clave_salida)">Editar</button>
+                        <button @click.prevent="eliminarSalida(sal.clave_salida)" class="btnAccion">Eliminar</button> 
+                        <button @click.prevent="editarSalida(sal.clave_salida)" class="btnAccion">Editar</button>
                     </td>
                 </tr>
             </tbody>

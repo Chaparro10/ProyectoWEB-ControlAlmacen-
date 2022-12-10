@@ -1,7 +1,7 @@
 <template>
     <div class="ProveedorLista">
 
-        <button @click.prevent="nuevoProveedor()">NUEVO</button>  
+        <button @click.prevent="nuevoProveedor()" class="btn btn-succes btn-lg">Agregar Nuevo</button>  
 
         <table>
             <thead>
@@ -25,8 +25,8 @@
                     <td>{{ pro.cuadro_observaciones }}</td>   
                     
                     <td>
-                        <button @click.prevent="eliminarProveedor(pro.clave_proveedor)">Eliminar</button>  
-                        <button @click.prevent="editarProveedor(pro.clave_proveedor)">Editar</button>
+                        <button @click.prevent="eliminarProveedor(pro.clave_proveedor)" class="btnAccion">Eliminar</button>  
+                        <button @click.prevent="editarProveedor(pro.clave_proveedor)" class="btnAccion">Editar</button>
                     </td>
                 </tr>
             </tbody>

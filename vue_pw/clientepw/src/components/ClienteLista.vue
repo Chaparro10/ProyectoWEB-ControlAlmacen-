@@ -1,7 +1,7 @@
 <template>
     <div class="ClienteLista">
         
-        <button @click.prevent="nuevoCliente()">Nuevo</button>
+        <button @click.prevent="nuevoCliente()" class="btn btn-succes btn-lg">Agregar Nuevo</button>
         <!--<button @click.prevent="traeCliente()">Datos</button>-->
         <table>
             <thead>
@@ -20,8 +20,8 @@
                     <td>{{ ct.direccion }}</td>
                     <td>{{ ct.RFC }}</td>
                     <td>
-                        <button @click.prevent="eliminarCliente(ct.clave_cte)">Eliminar</button> 
-                        <button @click.prevent="editarCliente(ct.clave_cte)">Editar</button>
+                        <button @click.prevent="eliminarCliente(ct.clave_cte)" class="btnAccion">Eliminar</button> 
+                        <button @click.prevent="editarCliente(ct.clave_cte)" class="btnAccion">Editar</button>
                     </td>
                 </tr>
             </tbody>

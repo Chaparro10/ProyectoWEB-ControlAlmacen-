@@ -1,5 +1,5 @@
 <template>
-    <div class="DetalleProveedor">
+    <div class="Detalle">
        Proveedor Numero: {{clave_proveedor}}
        <br/>
        Nombre: {{proveedores.nombre}}
@@ -11,7 +11,8 @@
        Telefono: {{proveedores.telefono}}
        <br>
        Cuadro Observacion: {{proveedores.cuadro_observaciones}}
-       
+       <br>
+       <img src="https://th.bing.com/th/id/R.3b2a053f096021370e44f57a39a977aa?rik=bzI1BiV4oofd1w&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fInventory-PNG-Pic.png&ehk=MWXe%2fydZovVFzk%2b7wHywmsJTkm%2f595IwItRIlQUnBzQ%3d&risl=&pid=ImgRaw&r=0" alt="">
       
     </div>
    </template>

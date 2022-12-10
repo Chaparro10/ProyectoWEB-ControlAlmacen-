@@ -2,7 +2,7 @@
     <div class="ArticuloLista">
 
         <!--<button @click.prevent="traeArticulo()">Datos</button>-->
-        <button @click="nuevoArticulo()"  class="btn btn-succes btn-lg" >Nuevo</button>
+        <button @click="nuevoArticulo()"  class="btn btn-succes btn-lg" >Agregar Nuevo</button>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -20,8 +20,8 @@
                     <td>{{art.Descripcion}}</td>
                     <td>{{art.cantidad}}</td>
                     <td>
-                        <button @click.prevent="editarArticulo(art.clave_articulo)">Editar</button>
-                        <button @click.prevent="eliminarArticulo(art.clave_articulo)">Eliminar</button>
+                        <button @click.prevent="editarArticulo(art.clave_articulo)" class="btnAccion">Editar</button>
+                        <button @click.prevent="eliminarArticulo(art.clave_articulo)" class="btnAccion">Eliminar</button>
                     </td>
                 </tr>
             </tbody>

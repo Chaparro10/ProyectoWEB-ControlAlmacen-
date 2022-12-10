@@ -1,7 +1,7 @@
 <template>
     <div class="EntradaLista">
 
-        <button @click.prevent="nuevaEntrada()">Nuevo</button>
+        <button @click.prevent="nuevaEntrada()" class="btn btn-succes btn-lg">Agregar Nuevo</button>
         <table>
             <thead>
                 <tr>
@@ -10,6 +10,7 @@
                     <th> Cantidad</th>
                     <th> Costo</th>
                     <th> Clave Proveedor</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,8 +22,8 @@
                     <td>{{ ent.clave_proveedor }}</td>
 
                     <td>
-                        <button @click.prevent="eliminarEntrada(ent.clave_entrada)">Eliminar</button> 
-                        <button @click.prevent="editarEntrada(ent.clave_entrada)">Editar</button>
+                        <button @click.prevent="eliminarEntrada(ent.clave_entrada)" class="btnAccion">Eliminar</button> 
+                        <button @click.prevent="editarEntrada(ent.clave_entrada)" class="btnAccion">Editar</button>
                     </td>
                 </tr>
             </tbody>
